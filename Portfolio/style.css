@@ -15,6 +15,7 @@ nav{
   width: 100%;
   background-color: rgb(94, 35, 150);
   
+<<<<<<< HEAD
 }
 nav h1{
   position: relative;
@@ -137,3 +138,108 @@ footer a{
   padding-left: 20px;
   color:#fff;
 }
+=======
+  body {
+    line-height: 1.6;
+   background-image: url("img/alone tree.jpg");
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    background: #333;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f39c12;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #333;
+    color: #fff;
+  }
+  
+  section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .projects-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(50% - 20px);
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact input, #contact textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #contact button:hover {
+    background: #f39c12;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .projects-container {
+      flex-direction: column;
+    }
+  }
+  
+>>>>>>> 9be34af1e129d39f96a06eae31db3529e137a4e0
