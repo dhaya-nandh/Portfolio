@@ -67,14 +67,6 @@ summary p:hover{
   padding: 5px;
   color:#fff;
 }
-.card a{
-  cursor: pointer;
-  color:lightpink;
-  text-decoration: none;
-}
-.card a:hover{
-  color:red;
-}
 .project-1{
      width:40%;
      height:30%;
