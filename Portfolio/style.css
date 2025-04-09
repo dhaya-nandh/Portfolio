@@ -4,7 +4,7 @@
   font-family: sans-serif;
 }
 body{
-  background-image: url('img/alone\ tree.jpg');
+  background-image: url('img/alone tree.jpg');
   object-fit: cover;
 }
 .header{
@@ -39,17 +39,16 @@ nav h1{
 }
 
 /*Home Page*/
-h1{
+.container h1{
   text-align: center;
   color: yellow;
 }
-h1:hover{
-  color:red;
-}
-summary{
-  width: 60%;
-  padding: 45px 300px;
-  color:#FFF;
+.container p{
+  width:50%;
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 25%;
+  text-align: center;
 }
 /*project*/
 .card{
@@ -59,6 +58,14 @@ summary{
 .card p{
   padding: 5px;
   color:#fff;
+}
+.card a{
+  color:red;
+  background-color: aliceblue;
+}
+.card a:hover{
+  color:aliceblue;
+  background-color: red;
 }
 .project-1{
      width:40%;
@@ -103,18 +110,16 @@ summary{
   border-radius: 10px;
 }
 /*about*/
-p{
-  width:70%;
-  background-color: red;
-  color:yellow;
-  text-align: center;
-  margin: 10%;
+.paragraph p{
+  color:#fff;
+  padding: 20px;
 }
 footer{
   width: 100%;
   background-color: rgb(70, 32, 105);
   text-align: center;
-  position: relative;
+  position: flex;
+  top:90%;
 }
 footer h1{
   color:green;
