@@ -41,7 +41,7 @@ nav h1{
 /*Home Page*/
 .container h1{
   text-align: center;
-  color: yellow;
+  color: #f5f50cd3;
 }
 .container p{
   width:50%;
@@ -56,7 +56,7 @@ nav h1{
  margin-left: 40%;
 }
 .card p{
-  padding: 5px;
+  padding: 10px;
   color:#fff;
 }
 .card a{
