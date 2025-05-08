@@ -6,6 +6,8 @@
 body{
   background-image: url('img/alone tree.jpg');
   object-fit: cover;
+  background:no-repeat;
+  
 }
 .header{
   position:fixed;
@@ -50,10 +52,11 @@ nav h1{
   padding-left: 25%;
   text-align: center;
 }
+
 /*project*/
 .card{
  text-align: center;
- margin-left: 40%;
+ margin-left: 30%;
 }
 .card p{
   padding: 10px;
