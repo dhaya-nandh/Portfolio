@@ -4,95 +4,139 @@
   font-family: sans-serif;
 }
 body{
-  background-image: url('img/alone tree.jpg');
-  object-fit: cover;
-  background:no-repeat;
-  
-}
-.header{
-  position:fixed;
-
+background-color: rgb(24, 18, 77);
 }
 nav{
-  width: 100%;
-  background-color: rgb(94, 35, 150);
-}
-nav h1{
-  position: relative;
-  right:40%;
-  top:40px;
+display: flex;
+padding: 20px;
+color:#fff;
+
 
 }
 .nav-links{
-  display: flex;
-  padding-left: 60em;
-  
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left:50rem;
 }
-.nav-links li{
-  padding: 20px 20px;
-  list-style: none; 
-}
-.nav-links li a{
-  color:#fff;
+.nav-links a{
+  padding-left: 20px;
   text-decoration: none;
+  color:#fff;
+  cursor: pointer;
 }
-.nav-links li a:hover{
-  color:orange;
+/* home page */
+.container{
+  margin-top: 20px;
+  margin-left: 20%;
+  color:#fff;
 }
-
-/*Home Page*/
 .container h1{
-  text-align: center;
-  color: #f5f50cd3;
+  font-size: 40px;
+  margin-left: 30px;
 }
 .container p{
-  width:50%;
-  color: #fff;
-  padding-top: 20px;
-  padding-left: 25%;
-  text-align: center;
+  width: 50%;
+  height:auto;
+  font-size: 20px;
+  margin-top: 10px;
 }
-
-/*project*/
-.card{
- text-align: center;
- margin-left: 30%;
+/* skills */
+.skill{
+  font-size: 40px;
+  margin-left: 30px;
+  color:#fff; 
 }
-.card p{
-  padding: 10px;
-  color:#fff;
+.image{
+display: flex;
+flex-wrap:nowrap;
+list-style: none;
+margin-top: 30px;
 }
-.card a{
-  color:red;
-  background-color: aliceblue;
-}
-.card a:hover{
-  color:aliceblue;
-  background-color: red;
-}
-.card section{
-     width:40%;
-     height:30%;
-     background-color: gray;
-     margin: 20px;
-     border-radius: 10px;
-/*about*/
-.paragraph p{
-  color:#fff;
-  padding: 20px;
-}
-footer{
-  width: 100%;
-  background-color: rgb(70, 32, 105);
-  text-align: center;
-  position: flex;
-  top:90%;
-}
-footer h1{
-  color:green;
-}
-footer a{
-  padding-left: 20px;
-  color:#fff;
-}
+.image li img{
+  width: 100px;
+  height:100px; 
+  padding-left: 30px;
   
+}
+.image p{
+  margin-top: 20px;
+  color:#fff;
+}
+/* project */
+.card{
+  margin-top: 10%;
+}
+.card h1{
+  font-size: 40px;
+  margin-left: 30px;
+  color:#fff;
+}
+.item{
+display: flex;
+flex-wrap: wrap;
+}
+.items{
+  width:30%;
+  height:50%;
+
+  background-color: lightblue;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+ 
+}
+.items h3{
+font-size:20px;
+color:gold;
+}
+.contact{
+margin-top: 10%;
+}
+.contact h1{
+font-size: 40px;
+margin-left: 30px;
+color:#fff;
+}
+.contact form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-left: 10%;
+}
+.contact label{
+  font-size: 20px;
+  color:#fff;
+  margin-top: 5px;
+}
+.contact form input{
+  width:50%;
+  height:30px;
+  margin-top: 5px;
+}
+.contact form textarea{
+  width:50%;
+  height:80px;
+  margin-top: 5px;
+}
+.contact form button{
+  width:20%;
+  height:40%;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 15%;
+}
+/* footer */
+footer{
+background-color: aqua;
+text-align: center;
+}
+footer a {
+
+  padding-left: 5px;
+}
+footer a i{
+width: 10%;
+  height:10%;
+}
