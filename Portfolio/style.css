@@ -10,7 +10,7 @@ nav{
 display: flex;
 padding: 20px;
 color:#fff;
-
+ box-shadow: rgba(20, 175, 202, 0.25) 0px 14px 28px, rgba(23, 228, 235, 0.22) 0px 10px 10px;
 
 }
 .nav-links{
@@ -27,7 +27,7 @@ color:#fff;
 }
 /* home page */
 .container{
-  margin-top: 20px;
+  margin-top: 100px;
   margin-left: 20%;
   color:#fff;
 }
@@ -41,9 +41,31 @@ color:#fff;
   font-size: 20px;
   margin-top: 10px;
 }
+/* Education */
+.education h1{
+  font-size: 40px;
+  margin-left: 30px;
+  color: #fff;
+}
+.edu-items img{
+  width: 20%;
+  height:20%;
+  margin-left: 20%;
+  border-radius: 100%;
+}
+.edu-item{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 15%;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+
+}
 /* skills */
 .skill{
   font-size: 40px;
+  margin-top: 10%;
   margin-left: 30px;
   color:#fff; 
 }
@@ -52,12 +74,12 @@ display: flex;
 flex-wrap:nowrap;
 list-style: none;
 margin-top: 30px;
+margin-left: 10%;
 }
 .image li img{
   width: 100px;
   height:100px; 
-  padding-left: 30px;
-  
+  padding-left: 30px; 
 }
 .image p{
   margin-top: 20px;
@@ -75,12 +97,13 @@ margin-top: 30px;
 .item{
 display: flex;
 flex-wrap: wrap;
+margin-left: 10% ;
 }
 .items{
-  width:30%;
+  width:40%;
   height:50%;
-
-  background-color: lightblue;
+  background-color: rgb(3, 19, 231);
+  color: #fff;
   padding: 20px;
   margin: 10px;
   text-align: center;
@@ -88,8 +111,14 @@ flex-wrap: wrap;
  
 }
 .items h3{
+padding: 5px;
 font-size:20px;
 color:gold;
+}
+.items a{
+  padding: 10px;
+  color:red;
+  text-decoration: none;
 }
 .contact{
 margin-top: 10%;
@@ -123,20 +152,22 @@ color:#fff;
 .contact form button{
   width:20%;
   height:40%;
-  margin-top: 10px;
+  margin: 10px;
   font-size: 20px;
-  margin-left: 15%;
 }
 /* footer */
 footer{
+width: 100%;
+height:30%;
 background-color: aqua;
 text-align: center;
 }
-footer a {
+footer i {
 
-  padding-left: 5px;
+padding: 5px;
+color:rgb(252, 6, 240);
 }
-footer a i{
-width: 10%;
-  height:10%;
+footer a{
+  padding-left: 5px;
+  text-decoration: none;
 }
