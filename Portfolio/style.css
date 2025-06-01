@@ -30,18 +30,35 @@ color:#fff;
   margin-top: 100px;
   margin-left: 20%;
   color:#fff;
+  padding: 20px;
 }
 .container h1{
-  font-size: 40px;
+  font-size: 50px;
   margin-left: 30px;
 }
 .container p{
   width: 50%;
-  height:auto;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.container a{
+  width: 50%;
+  height:20px;
+  background-color: #0000ff;
+  color:#fff;
+  text-decoration: none;
+  font-size:20px;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  top:20px;
+  left:30px;
 }
 /* Education */
+.education{
+  margin-top:15rem;
+}
 .education h1{
   font-size: 40px;
   margin-left: 30px;
@@ -59,8 +76,11 @@ color:#fff;
   margin-left: 15%;
   text-align: center;
   color: #fff;
-  padding: 10px;
+  padding: 20px;
 
+}
+.edu-item p{
+  padding: 5px;
 }
 /* skills */
 .skill{
@@ -116,7 +136,7 @@ font-size:20px;
 color:gold;
 }
 .items a{
-  padding: 10px;
+  padding-top: 20px;
   color:red;
   text-decoration: none;
 }
