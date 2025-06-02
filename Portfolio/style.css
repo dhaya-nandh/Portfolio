@@ -38,7 +38,7 @@ color:#fff;
 }
 .container p{
   width: 50%;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -55,9 +55,30 @@ color:#fff;
   top:20px;
   left:30px;
 }
+.hero{
+  width:20%;
+  height:20%;
+  border-radius: 100%;
+  position: relative;
+  top:-210px;
+  left:620px;
+  animation:slide 6s ease-in infinite;
+}
+@keyframes slide {
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+  
+}
 /* Education */
 .education{
-  margin-top:15rem;
+  margin-top:5rem;
 }
 .education h1{
   font-size: 40px;
